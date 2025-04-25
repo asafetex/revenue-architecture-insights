@@ -1,0 +1,1 @@
+SELECT month, COUNT(DISTINCT customer_id) AS churned FROM customers WHERE churned_at IS NOT NULL GROUP BY month;

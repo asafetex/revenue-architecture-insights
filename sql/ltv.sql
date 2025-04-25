@@ -1,0 +1,1 @@
+SELECT customer_id, SUM(order_value) AS ltv FROM orders GROUP BY customer_id;

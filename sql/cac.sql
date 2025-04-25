@@ -1,0 +1,1 @@
+SELECT campaign, SUM(spend)/COUNT(DISTINCT customer_id) AS cac FROM marketing GROUP BY campaign;

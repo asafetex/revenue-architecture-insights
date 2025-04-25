@@ -1,0 +1,1 @@
+-- Query to calculate payback period using CAC and monthly revenue
